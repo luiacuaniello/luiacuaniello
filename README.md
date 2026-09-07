@@ -12,4 +12,4 @@ against policy-conformant attacks. Apache-2.0.
 
 ---
 
-CV: **[a3thinker.it](https://www.a3thinker.it)**
+website: **[a3thinker.it](https://www.a3thinker.it)**
