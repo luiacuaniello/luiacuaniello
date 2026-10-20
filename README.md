@@ -9,7 +9,6 @@ asset, and measures whether its own risk scores hold up. Apache-2.0 · [live dem
 **[Geryon](https://github.com/luiacuaniello/geryon)** - measuring prompt-injection defences
 against policy-conformant attacks. Apache-2.0.
 
----
 
 ## GitHub Stats
 
