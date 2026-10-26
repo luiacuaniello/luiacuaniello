@@ -1,29 +1,22 @@
-Cybersecurity software engineer and security researcher. I build open-source security tools. - website: **[a3thinker.it](https://www.a3thinker.it)**
+Security software engineer in Naples, Italy. I build open-source tools for cloud and
+Kubernetes security, and I measure whether they are right. · [a3thinker.it](https://www.a3thinker.it) · [LinkedIn](https://www.linkedin.com/in/luiacuaniello/)
 
-### What I'm working on
+### PerspectiveGraph
+[Repository](https://github.com/luiacuaniello/perspectivegraph) · [Docs](https://docs.a3thinker.it/) · [Live demo](https://demo.a3thinker.it)
 
-**[PerspectiveGraph](https://github.com/luiacuaniello/perspectivegraph)** - an attack-path
-engine in Go that fails the pull request opening a route from the internet to a sensitive
-asset, and measures whether its own risk scores hold up. Apache-2.0 · [live demo](https://demo.a3thinker.it)
+An attack-path engine in Go. It fails the pull request that opens a route from the internet
+to sensitive data, and checks its own scores against what AWS actually allows.
+89 releases, signed images with SBOM and SLSA provenance, OpenSSF Best Practices (passing),
+official package on Artifact Hub, listed in Trivy's integrations. Apache-2.0.
 
-**[Geryon](https://github.com/luiacuaniello/geryon)** - measuring prompt-injection defences
+### Geryon
+[Repository](https://github.com/luiacuaniello/geryon): measuring prompt-injection defences
 against policy-conformant attacks. Apache-2.0.
 
-### Open source contributions
-
-**[The Falco Project](https://falco.org)** (CNCF): cloud-native runtime security
-
-- [falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392): extended the *Modify Python Startup Hook File*
-  rule to detect `sitecustomize`/`usercustomize` persistence (MITRE ATT&CK T1546.018)
-
-**[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)**: the official Go SDK for MCP servers and clients
-
-- [#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418): OAuth: re-authorize when the access token expires without a refresh token
-- [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419): OAuth: reuse the dynamically registered client across authorizations
-- [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432): `auth/extauth`: fix token source lifetime and concurrent access in the handlers
-- [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433): conformance: run the OAuth client credentials scenario
-
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=luiacuaniello&show_icons=true&theme=tokyonight)
+### Contributions
+- **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)**: OAuth fixes in the client and the
+  `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
+  [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
+  [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433))
+- **[Falco](https://falco.org) (CNCF)**: detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
+  ([falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392))
