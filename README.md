@@ -5,9 +5,7 @@ Kubernetes security, and I measure whether they are right. · [a3thinker.it](htt
 [Repository](https://github.com/luiacuaniello/perspectivegraph) · [Docs](https://docs.a3thinker.it/) · [Live demo](https://demo.a3thinker.it)
 
 An attack-path engine in Go. It fails the pull request that opens a route from the internet
-to sensitive data, and checks its own scores against what AWS actually allows.
-89 releases, signed images with SBOM and SLSA provenance, OpenSSF Best Practices (passing),
-official package on Artifact Hub, listed in Trivy's integrations. Apache-2.0.
+to sensitive data, and checks its own scores against what AWS actually allows. Apache-2.0.
 
 ### Geryon
 [Repository](https://github.com/luiacuaniello/geryon): measuring prompt-injection defences
