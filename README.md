@@ -15,6 +15,6 @@ against policy-conformant attacks. Apache-2.0.
 - **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)**: OAuth fixes in the client and the
   `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
   [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
-  [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433))
+  [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433), [#1465](https://github.com/modelcontextprotocol/go-sdk/pull/1465))
 - **[Falco](https://falco.org) (CNCF)**: detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
   ([falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392))
