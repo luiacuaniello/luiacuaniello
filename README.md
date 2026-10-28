@@ -8,11 +8,12 @@ An attack-path engine in Go. It fails the pull request that opens a route from t
 to sensitive data, and checks its own scores against what AWS actually allows. Apache-2.0.
 
 ### Geryon
-[Repository](https://github.com/luiacuaniello/geryon): measuring prompt-injection defences
-against policy-conformant attacks. Apache-2.0.
+[Repository](https://github.com/luiacuaniello/geryon)
+
+Measuring prompt-injection defences against policy-conformant attacks. Apache-2.0.
 
 ### Contributions
-- **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)**: OAuth fixes in the client and the
+- **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)** (official, maintained with Google): OAuth fixes in the client and the
   `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
   [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
   [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433), [#1465](https://github.com/modelcontextprotocol/go-sdk/pull/1465))
