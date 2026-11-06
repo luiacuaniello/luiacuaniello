@@ -12,10 +12,14 @@ to sensitive data, and checks its own scores against what AWS actually allows. A
 
 Measuring prompt-injection defences against policy-conformant attacks. Apache-2.0.
 
-### Contributions
-- **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)** (official, maintained with Google): OAuth fixes in the client and the
-  `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
-  [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
-  [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433), [#1465](https://github.com/modelcontextprotocol/go-sdk/pull/1465))
-- **[Falco](https://falco.org) (CNCF)**: detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
-  ([falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392))
+ ### Contributions
+ - **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)** (official, maintained with Google): OAuth fixes in the client and the
+   `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
+   [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
+   [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433), [#1465](https://github.com/modelcontextprotocol/go-sdk/pull/1465))
+-- **[Falco](https://falco.org) (CNCF)**: detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
+-  ([falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392))
++- **[Falco](https://falco.org) (CNCF)**: a fix for `program_output`, which could kill Falco with `SIGPIPE` or silently
++  drop alerts when the program exited ([falcosecurity/falco#4042](https://github.com/falcosecurity/falco/pull/4042)),
++  and detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
++  ([falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392))
