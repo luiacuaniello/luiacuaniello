@@ -12,7 +12,7 @@ to sensitive data, and checks its own scores against what AWS actually allows. A
 
 Measuring prompt-injection defences against policy-conformant attacks. Apache-2.0.
 
- ### Contributions
+### Contributions
 - **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)** (official, maintained with Google): OAuth fixes in the client and the
    `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
    [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
@@ -21,3 +21,7 @@ Measuring prompt-injection defences against policy-conformant attacks. Apache-2.
   drop alerts when the program exited ([falcosecurity/falco#4042](https://github.com/falcosecurity/falco/pull/4042)),
   and detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
   ([falcosecurity/rules#392](https://github.com/falcosecurity/rules/pull/392))
+- **[Trivy](https://trivy.dev) (Aqua Security)**: Oracle Linux 10 support. Its advisories were dropped when the
+  vulnerability database was built, so Trivy reported no vulnerabilities on Oracle Linux 10 images
+  ([aquasecurity/trivy-db#711](https://github.com/aquasecurity/trivy-db/pull/711)), plus its end-of-life date in the
+  scanner ([aquasecurity/trivy#11601](https://github.com/aquasecurity/trivy/pull/11601))
