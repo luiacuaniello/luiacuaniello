@@ -16,7 +16,9 @@ Measuring prompt-injection defences against policy-conformant attacks. Apache-2.
 - **[Model Context Protocol Go SDK](https://github.com/modelcontextprotocol/go-sdk)** (official, maintained with Google): OAuth fixes in the client and the
    `auth/extauth` handlers, and a conformance scenario ([#1418](https://github.com/modelcontextprotocol/go-sdk/pull/1418),
    [#1419](https://github.com/modelcontextprotocol/go-sdk/pull/1419), [#1432](https://github.com/modelcontextprotocol/go-sdk/pull/1432),
-   [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433), [#1465](https://github.com/modelcontextprotocol/go-sdk/pull/1465))
+   [#1433](https://github.com/modelcontextprotocol/go-sdk/pull/1433), [#1465](https://github.com/modelcontextprotocol/go-sdk/pull/1465)),
+   plus a fix in the Streamable HTTP server, which accepted `Mcp-Param` headers carrying unencoded non-ASCII values
+   that the 2026-07-28 spec requires it to reject ([#1521](https://github.com/modelcontextprotocol/go-sdk/pull/1521))
 - **[Falco](https://falco.org) (CNCF)**: a fix for `program_output`, which could kill Falco with `SIGPIPE` or silently
   drop alerts when the program exited ([falcosecurity/falco#4042](https://github.com/falcosecurity/falco/pull/4042)),
   and detection of `sitecustomize`/`usercustomize` persistence, MITRE ATT&CK T1546.018
