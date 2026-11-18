@@ -27,3 +27,10 @@ Measuring prompt-injection defences against policy-conformant attacks. Apache-2.
   vulnerability database was built, so Trivy reported no vulnerabilities on Oracle Linux 10 images
   ([aquasecurity/trivy-db#711](https://github.com/aquasecurity/trivy-db/pull/711)), plus its end-of-life date in the
   scanner ([aquasecurity/trivy#11601](https://github.com/aquasecurity/trivy/pull/11601))
+
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli) (Google)**: root-caused a startup crash under the macOS Seatbelt sandbox,
+  an unhandled async `fs.watch` error plus trust settings the sandbox could no longer save; both fixes build on the analysis
+  ([#28598](https://github.com/google-gemini/gemini-cli/issues/28598), fixed in [#30143](https://github.com/google-gemini/gemini-cli/pull/30143)
+  and [#30164](https://github.com/google-gemini/gemini-cli/pull/30164)). Also found that auto-update ran `npm install -g` when a source
+  checkout was run from outside the clone ([#30209](https://github.com/google-gemini/gemini-cli/issues/30209), fixed in
+  [#30315](https://github.com/google-gemini/gemini-cli/pull/30315))
